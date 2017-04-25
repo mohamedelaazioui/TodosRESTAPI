@@ -13,6 +13,7 @@ gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 
+gem 'rails_12factor', group: :production
 
 group :development, :test do
    # Use RSpec for specs
